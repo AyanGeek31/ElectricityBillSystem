@@ -1,0 +1,12 @@
+Download sqlite-jdbc-3.7.2.jar and place it in this folder.
+
+Download link:
+https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar
+
+Direct mirror (if Maven Central is slow):
+https://github.com/xerial/sqlite-jdbc/releases/download/3.7.2/sqlite-jdbc-3.7.2.jar
+
+After placing the JAR here, refresh the project in Eclipse:
+  Right-click project → Refresh (F5)
+  Then: Right-click → Build Path → Configure Build Path → Libraries → Add JARs
+  Select: WebContent/WEB-INF/lib/sqlite-jdbc-3.7.2.jar
